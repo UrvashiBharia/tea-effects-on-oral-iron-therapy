@@ -34,7 +34,7 @@ The original analysis was done in Excel/SPSS. I reimplemented it in R, added a s
 
 ## Method
 1. Extracted per-participant data and rebuilt it as a clean CSV.
-2. Built a synthetic dataset with known true coefficients (`/anemia-syntheticdata.ipynb`) and confirmed the R pipeline recovers them before using it on real data.
+2. Built a synthetic dataset with known true coefficients [/anemia-syntheticdata.ipynb](`/anemia-syntheticdata.ipynb`) and confirmed the R pipeline recovers them before using it on real data.
 3. Ran the multivariable linear regression (change in Hb ~ tea grams + therapy duration) in R, plus standard diagnostics (residual normality, homoscedasticity, VIF).
 4. Added robustness checks: CI on the tea coefficient, an ANCOVA-style model conditioning on baseline Hb, and a GAM check for nonlinearity.
 
@@ -52,7 +52,7 @@ Across the cohort (n=200), more daily tea intake was associated with a smaller i
 
 The fitted coefficients recover the known true values built into the synthetic data (tea = -0.020, duration = 0.10) within one standard error, confirming the pipeline correctly identifies the relationship it was designed to detect.
 
-Full diagnostic and robustness checks: (`/validation-checks`)
+Full diagnostic and robustness checks: [/validation-checks](`/validation-checks`)
 
 **Standardized effect sizes:** tea β = -0.21, therapy duration β = 0.32.
 
