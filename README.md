@@ -14,16 +14,24 @@ The original analysis was done in Excel/SPSS. I reimplemented it in R, added a s
 ![Figure 3](figures/fig3_venn.png)
 *Adverse effects: black stool and constipation overlap (n=134).*
 
-## Table 1: Baseline characteristics (n=134)
-Table 1: Baseline Characteristics (n=134)
-| | |
+## Table 1: Baseline characteristics of tea drinkers (n=200)
+| Characteristic | Value |
 |---|---|
-| Age | 31.6 ± 9.7 years |
-| OIT duration | 4.31 ± 1.65 months |
-| Hb at start | 9.79 ± 1.22 g/dl |
-| Hb at end | 10.37 ± 1.29 g/dl |
-| Change in Hb | 0.58 ± 0.55 g/dl |
-| Daily tea (median) | 6.25 g |`.
+| Age (years) | 32.01 ± 8.89 |
+| Number of participants | 200 |
+| OIT duration (months) | 4.30 ± 1.77 |
+| Hb at beginning (g/dl) | 10.15 ± 1.22 |
+| Hb at end (g/dl) | 10.84 ± 1.31 |
+| Daily tea consumption | 7.50 g (median) |
+
+## Table 2: By daily tea consumption
+| Category | N | Age | Hb start | Hb end | Change in Hb |
+|---|---|---|---|---|---|
+| <5g | 40 | 28.50 ± 8.27 | 10.21 ± 1.33 | 10.96 ± 1.45 | 0.76 ± 0.46 |
+| 5-10g | 67 | 33.13 ± 8.98 | 10.18 ± 1.20 | 10.96 ± 1.14 | 0.78 ± 0.46 |
+| 10-15g | 45 | 30.69 ± 8.81 | 9.98 ± 1.10 | 10.68 ± 1.24 | 0.69 ± 0.55 |
+| 15-20g | 32 | 35.03 ± 8.28 | 10.22 ± 1.40 | 10.76 ± 1.61 | 0.53 ± 0.50 |
+| ≥20g | 16 | 33.75 ± 8.92 | 10.19 ± 1.08 | 10.70 ± 1.25 | 0.53 ± 0.53 |
 
 ## Method
 1. Extracted per-participant data and rebuilt it as a clean CSV.
