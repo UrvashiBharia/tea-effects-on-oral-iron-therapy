@@ -56,3 +56,5 @@ Full diagnostic and robustness checks: [/validation-checks.md](/validation-check
 
 **Standardized effect sizes:** tea β = -0.21, therapy duration β = 0.32.
 
+![Figure 5](figures/diagram.png)
+
