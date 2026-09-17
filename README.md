@@ -52,7 +52,7 @@ Across the cohort (n=200), more daily tea intake was associated with a smaller i
 
 The fitted coefficients recover the known true values built into the synthetic data (tea = -0.020, duration = 0.10) within one standard error, confirming the pipeline correctly identifies the relationship it was designed to detect.
 
-Full diagnostic and robustness checks: [/validation-checks](`/validation-checks`)
+Full diagnostic and robustness checks: [/validation-checks.md](`/validation-checks.md`)
 
 **Standardized effect sizes:** tea β = -0.21, therapy duration β = 0.32.
 
