@@ -5,13 +5,16 @@ I re-ran the statistics from my published research paper [Bharia & Srivastav, IJ
 
 The original analysis was done in Excel/SPSS. I reimplemented it in R, added a synthetic-data validation step to confirm whether the pipeline recovers known coefficients before trusting it on real data. 
 
-![Figure 1](figures/fig1_tea_vs_change.png)
-*Individual participants' daily tea intake vs. change in Hb (n=134).*
+![Figure 1](figures/fig1.png)
+*Individual participants' daily tea intake vs. change in Hb (n=200).*
 
-![Figure 2](figures/fig2_tea_only.png)
-*Tea intake vs. change in Hb with linear trend.*
+![Figure 2](figures/fig2.png)
+*Scatter plot of tea intake vs. change in Hb with linear trend.*
 
-![Figure 3](figures/fig3_venn.png)
+![Figure 3](figures/fig3.png)
+*Scatter plot of tea or coffee intake vs. change in Hb with linear trend.*
+
+![Figure 3](figures/fig4.png)
 *Adverse effects: black stool and constipation overlap (n=134).*
 
 ## Table 1: Baseline characteristics of tea drinkers (n=200)
