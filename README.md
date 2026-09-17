@@ -34,7 +34,7 @@ The original analysis was done in Excel/SPSS. I reimplemented it in R, added a s
 
 ## Method
 1. Extracted per-participant data and rebuilt it as a clean CSV.
-2. Built a synthetic dataset with known true coefficients (`synthetic-practice/`)
+2. Built a synthetic dataset with known true coefficients (`/anemia-syntheticdata.ipynb`)
    and confirmed the R pipeline recovers them before using it on real data.
 3. Ran the multivariable linear regression (change in Hb ~ tea grams + therapy duration) in R,
    plus standard diagnostics (residual normality, homoscedasticity, VIF).
